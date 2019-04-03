@@ -1,0 +1,12 @@
+body {
+    background-color:#DE98B2;
+}
+h1, p, h2 {
+    color: white;
+}
+nav {
+    background-color: #3FA9F5;
+}
+a.nav-link {
+    color:white;
+}

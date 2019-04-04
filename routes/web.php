@@ -12,7 +12,12 @@
 */
 
 Route::get('/index', 'PagesController@index');
+Route::get('/breakout', 'PagesController@breakout');
 
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

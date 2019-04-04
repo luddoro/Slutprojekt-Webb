@@ -1,12 +1,21 @@
 body {
-    background-color:#DE98B2;
+    background-color:#7D7C84;
 }
 h1, p, h2 {
     color: white;
 }
 nav {
-    background-color: #3FA9F5;
+    background-color: #2D93AD;
 }
 a.nav-link {
     color:white;
 }
+canvas{
+    margin-top: 50px;
+    background-color: #A9A9A9;
+    outline: brown 3px solid;
+}
+.btn-dark{
+    margin-right: 10px;
+}
+

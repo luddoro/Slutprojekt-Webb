@@ -12,7 +12,7 @@
 */
 
 Route::get('/index', 'PagesController@index');
-Route::get('/breakout', 'PagesController@breakout');
+Route::get('/breakout', 'PagesController@breakout')->middleware('auth');
 
 Route::get('/', function () {
     return view('welcome');
